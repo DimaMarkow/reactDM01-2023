@@ -3,7 +3,8 @@ import css from './Profile.module.css';
 
 export const Profile = ({ user }) => {
   const { avatar, username, tag, location, stats } = user;
-  console.log(avatar, username, tag, location, stats);
+
+  console.log(avatar);
   return (
     <div className={css.profile}>
       <div className={css.description}>
@@ -32,13 +33,15 @@ export const Profile = ({ user }) => {
 };
 
 Profile.propTypes = {
-  avatar: PropTypes.string.isRequired,
-  username: PropTypes.string.isRequired,
-  tag: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
-  stats: PropTypes.shape({
-    followers: PropTypes.number.isRequired,
-    views: PropTypes.number.isRequired,
-    likes: PropTypes.number.isRequired,
+  user: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    username: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    stats: PropTypes.shape({
+      followers: PropTypes.number.isRequired,
+      views: PropTypes.number.isRequired,
+      likes: PropTypes.number.isRequired,
+    }),
   }),
 };
