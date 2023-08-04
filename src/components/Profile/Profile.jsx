@@ -4,7 +4,6 @@ import css from './Profile.module.css';
 export const Profile = ({ user }) => {
   const { avatar, username, tag, location, stats } = user;
 
-  console.log(avatar);
   return (
     <div className={css.profile}>
       <div className={css.description}>

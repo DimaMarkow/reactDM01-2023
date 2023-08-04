@@ -1,10 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './statistics.module.css';
-// import StatisticItem from 'components/Statistics/StatisticItem';
 
 export const Statistics = ({ title, stats }) => {
-  // const { id, label, percentage } = stats;
-  console.log(stats);
   return (
     <section className={css.statistics}>
       <h2 className={css.title}>Upload stats</h2>
