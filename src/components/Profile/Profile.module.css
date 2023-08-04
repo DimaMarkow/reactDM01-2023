@@ -1,0 +1,88 @@
+.profile {
+  display: block;
+  width: 480px;
+  background-color: white;
+  margin-bottom: 50px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+
+  margin: 40px auto;
+  padding: 20px;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+}
+
+.name {
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.tag {
+  color: gray;
+  font-size: 24px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.location {
+  color: gray;
+  font-size: 24px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.stats li {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  padding: 25px 8px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.label {
+  color: gray;
+  font-size: 18px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 8px;
+}
+
+.quantity {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 8px;
+}
